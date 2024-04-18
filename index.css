@@ -531,7 +531,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 600px;
     padding: 10px 0px;
 }
@@ -705,7 +704,9 @@ footer{
        
     }
 
-
+    .main-copy-rights{
+         display: block;
+    }
 
 
      }
@@ -794,17 +795,11 @@ footer{
         .contact-form {
             width: 100%;
         }
-
-
-       
+  
     .main-signin {
         width: 53%;
         padding: 30px 27px;
     }
-   
-
-
-
     .sml-screen-signin input{
         display: flex;
     }
@@ -813,9 +808,8 @@ footer{
         display: none;
     }
 
-
-
-
-
-
+    .main-copy-rights{
+      flex-direction: column;
+      gap: 10px;
+   }
          }
